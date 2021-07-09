@@ -1,0 +1,24 @@
+﻿  main.c
+C:\Users\batte\source\repos\LC64\LC64\main.c(6): warning C4047: 'initializing': 'lc_handle_t' differs in levels of indirection from 'void *'
+C:\Users\batte\source\repos\LC64\LC64\main.c(14): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'lc_handle_t'
+C:\Users\batte\source\repos\LC64\LC64\main.c(14): warning C4313: 'printf': '%p' in format string conflicts with argument 1 of type 'lc_handle_t'
+C:\Users\batte\source\repos\LC64\LC64\main.c(19): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'lc_handle_t'
+C:\Users\batte\source\repos\LC64\LC64\main.c(19): warning C4313: 'printf': '%p' in format string conflicts with argument 1 of type 'lc_handle_t'
+C:\Users\batte\source\repos\LC64\LC64\main.c(25): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'lc_handle_t'
+C:\Users\batte\source\repos\LC64\LC64\main.c(25): warning C4313: 'printf': '%p' in format string conflicts with argument 1 of type 'lc_handle_t'
+C:\Users\batte\source\repos\LC64\LC64\main.c(35): warning C4101: 'i': unreferenced local variable
+     Creating library C:\Users\batte\source\repos\LC64\x64\Release\LC64.lib and object C:\Users\batte\source\repos\LC64\x64\Release\LC64.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  8 of 11 functions (72.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+lc.lib(aes.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'lc.lib(aes.obj)' or at 'C:\Users\batte\source\repos\LC64\x64\Release\vc110.pdb'; linking object as if no debug info
+lc.lib(hmac.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'lc.lib(hmac.obj)' or at 'C:\Users\batte\source\repos\LC64\x64\Release\vc110.pdb'; linking object as if no debug info
+lc.lib(lc.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'lc.lib(lc.obj)' or at 'C:\Users\batte\source\repos\LC64\x64\Release\vc110.pdb'; linking object as if no debug info
+lc.lib(lccmd.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'lc.lib(lccmd.obj)' or at 'C:\Users\batte\source\repos\LC64\x64\Release\vc110.pdb'; linking object as if no debug info
+lc.lib(lccrt.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'lc.lib(lccrt.obj)' or at 'C:\Users\batte\source\repos\LC64\x64\Release\vc110.pdb'; linking object as if no debug info
+lc.lib(sha1.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'lc.lib(sha1.obj)' or at 'C:\Users\batte\source\repos\LC64\x64\Release\vc110.pdb'; linking object as if no debug info
+lc.lib(winhid.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'lc.lib(winhid.obj)' or at 'C:\Users\batte\source\repos\LC64\x64\Release\vc110.pdb'; linking object as if no debug info
+  LC64.vcxproj -> C:\Users\batte\source\repos\LC64\x64\Release\LC64.dll
